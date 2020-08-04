@@ -1,0 +1,308 @@
+
+body{
+  background: black;
+  margin: 0px;
+  background-color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: blue;
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-family: 'Hind', sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 30px;
+}
+h3 {
+  font-family: 'Hind', sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+
+
+.container {
+	margin: 0px;
+	padding-right: 0px;
+  padding-left: 0px;
+  width: auto;
+  background-position: center;
+}
+
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	background-image: url("https://scontent.faep6-1.fna.fbcdn.net/v/t1.0-9/116007623_10222886213212766_1230375847013969813_o.jpg?_nc_cat=102&_nc_sid=825194&_nc_eui2=AeHjg8FMjEjAecBOzjlrM9PCgp2hyVc7PN6CnaHJVzs83nhRkn4klbkVS4ZxJW3s6Xc&_nc_ohc=5Ik1hi6TATgAX_O7V9j&_nc_ht=scontent.faep6-1.fna&oh=d0712b40206f2c0424c422e2cc0588b9&oe=5F3E54EC");
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+#banner h1 {
+	font-family: 'Raleway', sans-serif;
+  	color: white;
+  	font-weight: lighter;
+  	font-size: 33px;
+  	text-align: center;
+    margin: 29px 0px 0px 0px
+}
+
+#banner p {
+	font-family: 'Raleway', sans-serif;
+  color: rgb(180,180,180);
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 16px 41px
+}
+
+#banner a {
+	padding: 7px 14px;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 24px;
+   	color: black;
+    background-color: #1fd0d6;
+    border-color: #357ebd;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#banner a:hover {
+	padding: 10px 14px 7px;
+    margin: 30px 10px 0px 0px;
+    font-weight: bold;
+    font-size: 24px;
+   	color: black;
+    background-color: white;
+    border-color: #357ebd;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+#bannerlogo {
+    background-image: url("https://scontent.fcor11-1.fna.fbcdn.net/v/t1.0-9/117176378_10222977776621794_762919975148038893_o.jpg?_nc_cat=111&_nc_sid=825194&_nc_ohc=Wsnlphei0q8AX8f_62f&_nc_ht=scontent.fcor11-1.fna&oh=fa13eec774672fc810bdfbc37a2a0e23&oe=5F4FB6E3");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 186px 44px 173px 78px;
+}
+
+
+#bannerlogo h1 {
+	font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 131px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px 42px 0px 0px;
+        
+}
+
+#bannerlogo p {
+	font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 33px;
+    letter-spacing: 8px;
+    text-align: center;
+    padding: 0px 26px 0px 0px;
+  
+}
+
+.card {
+	font-size: 20px;
+  margin: 0px;
+  padding: 30px 20px;
+  padding: 30px 13px 0px 0px;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);  
+}
+
+.cardtitle h2 {
+	font-size: 37px;
+    color: white;
+    margin: 0px;
+    padding: 70px 33px 48px 20px;
+    text-align: center;
+}
+
+
+#bannerp {
+	background-image: url("https://scontent.faep6-1.fna.fbcdn.net/v/t1.0-9/115723334_10222882000787458_8053906355408941449_o.jpg?_nc_cat=105&_nc_sid=825194&_nc_eui2=AeG60tGMBs8QsCiGfuel8h6uifoq3q5hIEaJ-irermEgRkC05XNCYI4rrB0eG763Kdk&_nc_ohc=SLO_x4sVRAEAX9YPLDN&_nc_ht=scontent.faep6-1.fna&oh=3711d1517cf813724f46077bdbd0417d&oe=5F3D79C5");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px 0px 102px 19px;
+}
+
+#bannerp p {
+	font-family: 'Raleway', sans-serif;
+  	color: white;
+  	font-weight: normal;
+  	font-size: 20px;
+  	line-height: 30px;
+  	padding: 0px 13px 0px 0px;
+  	text-align: center;
+}
+
+#bannerp h4 {
+  font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 13px 0px 0px;
+    text-align: center;
+}
+
+#bannerp a {
+	padding: 10px 14px 7px;
+    margin: 30px 10px 0px 0px;
+    font-weight: bold;
+    font-size: 24px;
+   	color: black;
+    background-color: #1fd0d6;
+    border-color: #357ebd;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#bannerp a:hover {
+	padding: 10px 14px 7px;
+    margin: 30px 10px 0px 0px;
+    font-weight: bold;
+    font-size: 24px;
+   	color: black;
+    background-color: white;
+    border-color: #357ebd;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#bannerservicios {
+	background-image: url("https://scontent.faep6-1.fna.fbcdn.net/v/t1.0-9/116036665_10222886161011461_4350126973645230846_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_eui2=AeHypAT1OGVnIQcFf-pjBi4lFyr159Dt7ysXKvXn0O3vK6YyVXyhMkopceBYJLtHaUI&_nc_ohc=HOXB_PFrY_8AX_kYcGn&_nc_ht=scontent.faep6-1.fna&oh=fb455d8ff4cb2c8b26e5c4504e93c97a&oe=5F403A79");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 68px 0px 53px 19px;
+}
+
+#bannerservicios h3 {
+	font-family: 'Hind', sans-serif;
+  	color: white;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-size: 30px;
+}
+
+
+.footer {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 30px 20px;
+  margin: 0px 0px 10px 0px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0px 10px;
+  background-color: transparent;
+}
+.footer-links a:hover {
+  color: rgb(0,238,214);
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 10px;
+  margin: 11px 0px;
+}
+
+#enviar a{
+  padding: 10px 14px 4px;
+  margin: 30px 10px 0px 0px;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  background-color: #1fd0d6;
+  border-color: #357ebd;
+  text-align: center;
+  border-radius: 4px
+}
+
+#enviar a:hover {
+  padding: 10px 14px 4px;
+  margin: 30px 10px 0px 0px;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  border-color: white;
+  text-align: center;
+  border-radius: 4px
+}
+
+#enlaces {
+	background-image: url("https://scontent.fcor11-1.fna.fbcdn.net/v/t1.0-9/116290079_10222969615297766_5000951127044397781_o.jpg?_nc_cat=101&_nc_sid=825194&_nc_ohc=yF7Ms8euLE0AX8FS5f6&_nc_ht=scontent.fcor11-1.fna&oh=9d6cfb59e6e68b4037752fb966c5b47e&oe=5F4D79A7");
+	background-size: cover;
+  background-position: right;
+  margin: 0px;
+	padding: 40px 10px;
+}
+
+.activo {
+	font-size: 18px;
+  	justify-content: 20px;
+ 	background: none;
+ 	float: right;
+ 	margin: 0;
+  	padding: 0px 16px;
+  	color: white;
+  	cursor: pointer;
+}
+
+.activo:hover {
+	font-size: 18px;
+  	justify-content: 20px;
+ 	background: none;
+ 	float: right;
+ 	margin: 0;
+  	padding: 0px 16px;
+  	color: #1fd0d6;
+  	text-decoration:none;
+  	cursor: pointer;
+}
+
+.activo:focus {
+	font-size: 18px;
+  	justify-content: 20px;
+ 	background: none;
+ 	float: right;
+ 	margin: 0;
+  	padding: 0px 16px;
+  	color: #1fd0d6;
+  	text-decoration:none;
+  	cursor: pointer;
+}

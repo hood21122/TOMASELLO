@@ -1,0 +1,158 @@
+
+body{
+  background: black;
+  margin: 0px;
+  background-color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: blue;
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-family: 'Hind', sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.banner h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  margin: 32px 0px 0px 0px;
+}
+
+.containertrabajos {
+	margin: 0px;
+	padding-right: 0px;
+    padding-left: 0px;
+    width: auto;
+}
+
+.container {
+	margin: auto;   
+}
+
+
+#bannertrabajos {
+	background-image: url("https://scontent.fcor11-1.fna.fbcdn.net/v/t1.0-9/116453956_10222978259113856_7284363430513245297_o.jpg?_nc_cat=100&_nc_sid=825194&_nc_ohc=fwtm7nwa4j4AX84juoo&_nc_oc=AQnm0POaILnptG-VnrBAnYDTD-Nl8lVEynzl5LbMIf1H3d1sm-_7bU2wi5tAqlVBDWErF0UcEWKgd05MxosWzg8u&_nc_ht=scontent.fcor11-1.fna&oh=702582f56000f1ee7f3f4504bed785ee&oe=5F4D3A01");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 68px 0px 53px 19px;
+}
+
+#bannertrabajos p {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+#bannertrabajos a {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+    background-color: white;
+    border-color: white;
+    padding: 6px 19px 3px 19px;
+   	margin: 85px 0px -45px -16px; 
+}
+
+#bannertrabajos a:hover {
+	text-align: center;
+	font-weight: bold;
+	color: #1fd0d6;
+    background-color: black;
+    border-color: black;
+    padding: 6px 19px 3px 19px;
+    margin: 85px 0px -45px -16px;
+}
+
+#bannerinferior {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+    background-color: black;
+    border-color: grey;
+    padding: 10px 19px;
+    margin: 14px;
+}
+
+#bannerinferior a {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+    background-color: #1fd0d6;
+    border-color: #1fd0d6;
+    padding: 6px 19px 3px 19px;
+    margin: 14px;
+}
+
+#bannerinferior a:hover {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+    background-color: white;
+    border-color: white;
+    padding: 6px 19px 3px 19px;
+    margin: 14px; 
+}
+
+.footer {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 30px 20px;
+  margin: 0px 0px 10px 0px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+color: white;
+text-decoration: none;
+font-size: 30px;
+padding: 0px 10px;
+background-color: transparent;
+}
+
+.footer-links a:hover {
+  color: rgb(0,238,214);
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 10px;
+  margin: 11px 0px;
+}
+
+.cardtitle a {
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+color: white;
+text-decoration: none;
+font-size: 30px;
+padding: 0px 10px;
+margin: 23px 0px 0px 0px;
+}
+
+.cardtitle a:hover {
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+color: rgb(0,238,214);
+margin: 23px 0px 0px 0px;
+}
